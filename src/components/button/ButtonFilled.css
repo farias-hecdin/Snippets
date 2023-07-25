@@ -1,0 +1,26 @@
+.ButtonFilled {
+  --color0: #FBFBFE;
+  --color1: #E5E6ED;
+  --color2: #3E3F4C;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color0);
+  border-radius: 0.25rem;
+  background-color: var(--color0);
+  transform: rotate(-180deg);
+  &:hover {
+    border-color: var(--color2);
+    background-color: #FFFFFF;
+  }
+  &_icon {
+    font-size: 1.5rem;
+  }
+  &_text {
+    margin-top: 0.25rem;
+    color: var(--color2);
+    font-size: 0.9rem;
+  }
+}

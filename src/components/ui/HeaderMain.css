@@ -1,0 +1,12 @@
+.HeaderMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100dvw - var(--ToolBar-width));
+  padding: 2rem 3rem 1rem;
+  &_logo {
+    color: #0D266D;
+    font-weight: var(--fo-light);
+    font-size: 2rem;
+  }
+}

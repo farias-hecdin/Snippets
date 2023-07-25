@@ -1,0 +1,21 @@
+.ButtonTonal {
+  --color0: #fbfbfe;
+  --color1: #e5e6ed;
+  --color2: #3e3f4c;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color0);
+  border-radius: 0.25rem;
+  background-color: var(--color0);
+  &_icon {
+    font-size: 2rem;
+  }
+  &_text {
+    color: var(--color2);
+  }
+  &:hover {
+    border-color: var(--color2);
+  }
+}

@@ -1,0 +1,43 @@
+.home-ItemCard {
+  --size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border: 0.07rem solid transparent;
+  border-radius: 0.3rem;
+  background-color: #FBFBFB;
+  &:hover {
+    border-color: #0D266D;
+    background-color: #FFFFFF;
+  }
+  &_content {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+  &_title {
+    color: #0D266D;
+    font-weight: var(--fo-bold);
+  }
+  &_text {
+    color: #888888;
+    font-size: 0.8rem;
+  }
+  &_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(var(--size) + 1rem);
+    height: calc(var(--size) + 1rem);
+    border: 1px solid #CCCCCC;
+    border-radius: 0.3rem;
+  }
+  &_image {
+    width: var(--size);
+    height: var(--size);
+  }
+  &_icon {
+    font-size: 2.5rem;
+  }
+}

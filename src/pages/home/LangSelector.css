@@ -1,0 +1,15 @@
+.home-LangSelector {
+  padding: 2rem 3rem 4rem;
+  &_title {
+    margin: 0 0 1.5rem;
+    color: #0D266D;
+    font-weight: var(--fo-semibold);
+    font-size: 1.25rem;
+  }
+  &_list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+  }
+}

@@ -1,0 +1,9 @@
+.home-HomeLayout {
+  display: flex;
+  background-color: #F4F5FC;
+  &_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
